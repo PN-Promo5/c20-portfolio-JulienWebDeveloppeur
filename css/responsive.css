@@ -1,0 +1,89 @@
+
+
+@media (max-width: 992px) {
+	h4 {
+		font-size: 25px !important;
+	}
+	#hidden-big-icon {
+		display: none;
+	}
+	#projects-section .card-body {
+		width: 290px;
+		height: 190px;
+	}
+	.services-card {
+		padding: 0px;
+	}
+	#services-section .col-md-5 {
+		margin: 10px;
+	}
+	.nav-link {
+		font-size: 25px;
+	}
+	.nav-link:hover {
+		font-size: 30px;
+	}
+	.project-desc p {
+		font-size: 0.8rem;
+	}
+}
+
+@media (max-width: 767px) {
+	h4 {
+		font-size: 20px !important;
+	}
+	#about-section .d-flex {
+		flex-direction: column;
+	}
+	.header-title {
+		padding-top: 65%;
+		text-align: center;
+	}
+	header .text-transparent-white {
+		color: rgba(0, 0, 0, 0.4) !important;
+	}
+	header .text-white {
+		color: black !important;
+	}
+	.underline-bottom {
+		border-bottom: 4px solid #171775;
+	}
+	.hidden-md {
+		display: none;
+	}
+	.modal-header {
+		background: linear-gradient(90deg, #000083 0%, #00004C 100%);
+	}
+	#contact .text-white {
+		color: white !important;
+	}
+	.desktop {
+		transform: scale(1.2) translateX(-5%)translateY(5%);
+	}
+	body {
+		overflow-x: hidden;
+	}
+}
+
+@media (max-width: 576px) {
+	#about-section .d-flex {
+		flex-direction: column;
+	}
+	.header-title {
+		margin-top: 25%;
+		text-align: center;
+	}
+	h5 {
+		font-size: 80%;
+	}
+	.desktop {
+		transform: scale(1.6) translateX(-15%) translateY(15%);
+	}
+}
+
+@media (min-width: 1300px) {
+	.modal-dialog {
+		max-width: 800px !important;
+	}
+}
+
